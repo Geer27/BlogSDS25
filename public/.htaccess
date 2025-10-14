@@ -1,0 +1,7 @@
+# Habilitar el motor de reescritura
+Options -MultiViews
+RewriteEngine On
+
+# Redirigir todo al index.php (menos archivos que existan)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
