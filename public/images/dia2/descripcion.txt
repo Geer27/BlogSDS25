@@ -1,0 +1,82 @@
+Msc. Enrique Cortez - Taller #1: Toma de deciciones estrategicas basadas en datos.
+image_01.jpg
+Descripción: Muestra una hoja de cálculo o una tabla de datos que parece ser un registro de transacciones o ventas. Las columnas visibles contienen:
+Fecha (Date): Como 1/10/2025, 11/11/2024.
+Farmacia/Localización (Pharmacy/Location): Como Farmacia Central, Farmacia Oriente, Farmacia Popular.
+Ubicación (Location): Como La Union, Usulutan, San Miguel.
+Nombre (Name): Como Rafaela, Tania, Juan Antonio.
+ID/Código (ID/Code): Números de 4 a 5 dígitos, a veces acompañados de una palabra.
+Tipo de Medicamento (Medicine Type): Como Antihistaminico, Antipiretico, Analgesico, Antiinflamatorio, Antibiotico.
+Cantidad (Quantity): Un número entero (ej. 2, 5, 3).
+Precio/Costo (Price/Cost): Un número decimal (ej. 18.14, 24.81, 11.02).
+La tabla está coloreada con filas alternas en verde claro.
+image_02.jpg
+Descripción: Muestra una diapositiva o un gráfico de barra de un informe o presentación.
+Título: 4. Datos en la educación (El Salvador)
+Gráfico de Barras: Un gráfico de barras verticales que compara cinco áreas de estudio universitarias, presumiblemente por el número de estudiantes o egresados. Las categorías son: Adm. de Empresas, Derecho, Sistemas/Informática, Salud, y Ing. Industrial.
+Eje Y: Muestra una escala numérica (0, 8, 16, 24, 32) que probablemente representa un porcentaje o un número en miles/cientos.
+Fuente: Fuente referencial: MINED - Estadísticas de Educación Superior (último informe disponible).
+La barra más alta corresponde a Adm. de Empresas.
+image_03.jpg
+Descripción: Muestra una diapositiva con texto y diagramas que explican la aplicación de los datos.
+Secuencia Lógica (Arriba): Muestra el flujo de información: Dato (unidad aislada) → Datos organizados (información) → Estructuras complejas (conocimiento)
+Título de Sección (Abajo): 2. Datos aplicados a sucesos de la vida diaria
+Tres Ejemplos de Aplicación:
+Pasos diarios: Decidir metas de actividad física según el histórico.
+Consumo eléctrico: Ajustar uso de electrodomésticos para ahorrar.
+Gastos personales: Detectar fugas y optimizar presupuesto mensual.
+El diseño utiliza iconos y bloques de colores (Legos) en la parte superior para ilustrar el concepto.
+image_04.jpg
+Descripción: Muestra una diapositiva de presentación que ilustra de forma didáctica la jerarquía de la información usando bloques de juguete (similares a Legos).
+Título: 1. ¿Qué es un dato y cómo se construye la información?
+Diagrama con Bloques:
+1 bloque (Dato, unidad aislada)
+10 bloques desordenados (Datos organizados, que comienzan a formar información)
+100 bloques ordenados (Estructuras de información más complejas)
+Castillo con bloques (Estructuras complejas, que representan conocimiento)
+Fórmula Inferior: Dato (unidad aislada) → Datos organizados (información) → Estructuras complejas (conocimiento)
+Esta imagen es la parte superior del concepto introducido en image_03.jpg.
+
+Ing. Gabriel Castillo - Taller #2: Construyendo un CRUD en minutos con Laravel y Filament
+
+image_05.jpg
+Descripción: Muestra una interfaz de usuario (UI) de un sistema de gestión web (posiblemente un backend o un panel de administración) para crear un nuevo usuario.
+Ubicación: El menú lateral (Dashboard, Productos, Tallas, Users) indica que se está en la sección de gestión de usuarios.
+Título: Create User (Crear Usuario).
+Campos de Formulario: Incluyen Name*, Email address*, Roles* (un menú desplegable para seleccionar una opción), Email verified at, y Password*.
+Botones de Acción: Create, Create & create another, y Cancel.
+La interfaz es limpia, con un fondo blanco y un estilo de formulario moderno.
+image_06.jpg
+Descripción: Muestra una interfaz de usuario (UI) de un panel de administración web, específicamente la sección para listar y gestionar roles de usuario.
+Ubicación: El menú lateral resalta la opción Roles.
+Título: Roles (Lista de Roles).
+Opciones Principales: Botón New Role (Nuevo Rol) en amarillo/naranja.
+Tabla de Datos: Muestra al menos un resultado: Super Admin, web (Guard Name), TI (Permissions), Oct 14, 2025 17:20:09 (Updated At). A la derecha, se ofrecen las opciones Edit (Editar) y Delete (Eliminar).
+Paginación/Búsqueda: Incluye un campo de Search (Búsqueda) y una opción para mostrar Per page 10 (10 resultados por página).
+image_07.jpg
+Descripción: Muestra una interfaz de usuario (UI) de un panel de administración web, específicamente la lista de productos.
+Ubicación: El menú lateral resalta la opción Productos.
+Título: Productos (Lista de Productos).
+Opciones Principales: Botón New producto (Nuevo Producto) en amarillo/naranja.
+Tabla de Datos: Muestra una lista de productos con las columnas Nombre, Descripción, Precio (10), Stock total (25 o 0), y Tallas (M, S). Los tres resultados listados son el mismo producto: Camisa Tipo Polo.
+Acciones por Fila: Opciones View (Ver) y Edit (Editar) para cada producto.
+Paginación/Búsqueda: Incluye un campo de búsqueda y paginación.
+image_08.jpg
+Descripción: Muestra una interfaz de usuario (UI) de un panel de administración web para crear un nuevo producto.
+Ubicación: El menú lateral resalta la opción Productos.
+Ruta de Navegación: Productos > Create
+Título: Create Producto (Crear Producto).
+Campos de Formulario:
+Nombre del producto* (Ej. Ropa)
+Descripción del producto (Ej. Ropa)
+Precio* (con el símbolo $) (Ej. 10.00)
+Imagen del producto* (con un selector de archivos)
+Botones de Acción: Create, Create & create another, y Cancel.
+image_09.jpg
+Descripción: Muestra una interfaz de usuario (UI) de un panel de administración web, específicamente la sección para gestionar tallas.
+Ubicación: El menú lateral resalta la opción Tallas.
+Título: Tallas.
+Opciones Principales: Botón Crear talla en amarillo/naranja.
+Contenido: La tabla de datos no contiene registros. Muestra el mensaje: No se encontraron registros.
+Encabezados de Tabla: Las columnas serían Producto, Talla, y Cantidad.
+Funcionalidad: Incluye un campo de Buscar y una opción de filtro/visualización a la derecha.

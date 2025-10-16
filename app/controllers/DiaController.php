@@ -13,10 +13,17 @@ class DiaController {
         $data = [
             'titulo' => 'Día 1 - Lunes 13 de Octubre',
             'fecha' => 'Lunes, 13 de octubre de 2025',
-            'actividades' => [
-                'Inauguración de la Semana de Sistemas 2025',
-                'Ponencias y presentaciones iniciales',
-                'Actividades de integración'
+            'ponencias' => [
+                [
+                    'ponente' => 'Ing. Luis Contreras',
+                    'tema' => 'El ABC de Bitcoin',
+                    'descripcion' => 'Curso introductorio sobre criptomonedas y tecnología blockchain, abordando desde los fundamentos del dinero tradicional hasta el funcionamiento técnico de Bitcoin y sus aplicaciones prácticas.'
+                ],
+                [
+                    'ponente' => 'Rodrigo Pineda',
+                    'tema' => 'Inteligencia Artificial Generativa: De la Idea a la Acción',
+                    'descripcion' => 'Presentación sobre los conceptos fundamentales de la IA generativa, sus clasificaciones, diferencias técnicas entre Machine Learning y Deep Learning, y aplicaciones prácticas con agentes de IA.'
+                ]
             ]
         ];
 
@@ -24,16 +31,27 @@ class DiaController {
     }
 
     /**
-     * Muestra el día 2
+     * Muestra el día 2 (Martes 14 de octubre)
      */
     public function dia2() {
         $data = [
             'titulo' => 'Día 2 - Martes 14 de Octubre',
             'fecha' => 'Martes, 14 de octubre de 2025',
-            'mensaje' => 'Contenido en construcción. Se actualizará durante el evento.'
+            'talleres' => [
+                [
+                    'ponente' => 'Msc. Enrique Cortez',
+                    'tema' => 'Toma de Decisiones Estratégicas Basadas en Datos',
+                    'descripcion' => 'Taller práctico sobre análisis de datos y su aplicación en la toma de decisiones empresariales, cubriendo desde conceptos básicos de datos e información hasta casos reales aplicados a diferentes sectores.'
+                ],
+                [
+                    'ponente' => 'Ing. Gabriel Castillo',
+                    'tema' => 'Construyendo un CRUD en Minutos con Laravel y Filament',
+                    'descripcion' => 'Taller práctico de desarrollo web donde se demostró la construcción rápida de sistemas CRUD completos utilizando el framework Laravel junto con Filament, un panel de administración moderno y potente.'
+                ]
+            ]
         ];
 
-        return $this->view('dia_construccion', $data);
+        return $this->view('dia2', $data);
     }
 
     /**
