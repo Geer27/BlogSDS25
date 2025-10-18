@@ -169,7 +169,6 @@ function initGallery() {
     const galleryItems = document.querySelectorAll('.gallery-item img');
     galleryImages = Array.from(galleryItems);
 
-    // Click en imagen
     galleryItems.forEach((img, index) => {
         img.parentElement.addEventListener('click', () => {
             currentImageIndex = index;
@@ -225,7 +224,6 @@ function initFormValidation() {
     const inputs = form.querySelectorAll('input, textarea');
 
     inputs.forEach(input => {
-        // Validación en tiempo real
         input.addEventListener('blur', () => validateField(input));
         input.addEventListener('input', () => {
             if (input.classList.contains('error')) {
@@ -342,9 +340,6 @@ function showNotification(message, type = 'info') {
     }, 3000);
 }
 
-// ========================================
-// SMOOTH SCROLL MEJORADO
-// ========================================
 function initSmoothScroll() {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
@@ -416,9 +411,6 @@ function initScrollToTop() {
     });
 }
 
-// ========================================
-// INICIALIZACIÓN
-// ========================================
 document.addEventListener('DOMContentLoaded', () => {
     initGallery();
     initFormValidation();

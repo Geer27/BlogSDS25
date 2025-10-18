@@ -9,13 +9,14 @@
 
     <!-- Resumen del Día -->
     <div class="card">
-        <h3>📋 Resumen del Día</h3>
+        <h3>Resumen del Día</h3>
         <p class="info-text">El primer día de la Semana de Sistemas 2025 inauguró con gran éxito, presentando dos ponencias magistrales que abordaron tecnologías disruptivas del presente: Bitcoin y la Inteligencia Artificial Generativa.</p>
     </div>
 
     <!-- PRIMERA PONENCIA: BITCOIN -->
-    <div class="card">
-        <h3>💰 El ABC de Bitcoin</h3>
+    <div class="card ponencia-card">
+        <div class="ponencia-number-badge">1</div>
+        <h3>El ABC de Bitcoin</h3>
         <p class="ponente-badge">Ing. Luis Contreras | Fundación Misión PR</p>
 
         <div class="ponente-image-container">
@@ -76,8 +77,9 @@
     </div>
 
     <!-- SEGUNDA PONENCIA: IA GENERATIVA -->
-    <div class="card">
-        <h3>🤖 Inteligencia Artificial Generativa: De la Idea a la Acción</h3>
+    <div class="card ponencia-card">
+        <div class="ponencia-number-badge">2</div>
+        <h3>Inteligencia Artificial Generativa: De la Idea a la Acción</h3>
         <p class="ponente-badge">Rodrigo Pineda | Especialista en IA</p>
 
         <div class="ponente-image-container">

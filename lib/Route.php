@@ -12,20 +12,12 @@ class Route {
     // URL base del proyecto
     private static $URL_BASE = "";
 
-    /**
-     * Registra una ruta GET
-     * @param string $uri - La ruta (ej: "/", "/dia/:numero")
-     * @param mixed $callback - Función anónima o [Controller::class, "metodo"]
-     */
+
     public static function get($uri, $callback) {
         self::$routes["GET"][self::$URL_BASE . $uri] = $callback;
     }
 
-    /**
-     * Registra una ruta POST
-     * @param string $uri - La ruta
-     * @param mixed $callback - Función anónima o [Controller::class, "metodo"]
-     */
+
     public static function post($uri, $callback) {
         self::$routes["POST"][self::$URL_BASE . $uri] = $callback;
     }
@@ -51,7 +43,6 @@ class Route {
                 // Extraer parámetros de la URL
                 $params = array_slice($matches, 1);
 
-                // Ejecutar callback (función anónima)
                 if(is_callable($funcion)) {
                     $response = $funcion(...$params);
                 }

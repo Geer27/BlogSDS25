@@ -57,9 +57,6 @@ class VisitaController {
         }
     }
 
-    /**
-     * Lista todas las visitas (opcional, para administración)
-     */
     public function listar() {
         $visitaModel = new Visita();
         $visitas = $visitaModel->obtenerTodas();

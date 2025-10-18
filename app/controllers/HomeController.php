@@ -19,12 +19,6 @@ class HomeController {
         return $this->view('home', $data);
     }
 
-    /**
-     * Carga una vista con datos
-     * @param string $vista - Nombre del archivo de vista
-     * @param array $data - Datos para la vista
-     * @return string - HTML renderizado
-     */
     private function view($vista, $data = []) {
         // Convertir array en variables
         extract($data);

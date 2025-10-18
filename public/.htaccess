@@ -2,6 +2,6 @@
 Options -MultiViews
 RewriteEngine On
 
-# Redirigir todo al index.php (menos archivos que existan)
+# Redirigir todo al index.php
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^ index.php [QSA,L]

@@ -1,3 +1,7 @@
+**Acceder a la aplicación**
+   - Blog: http://localhost:8083
+   - phpMyAdmin: http://localhost:8084
+
 # Blog - Semana de Sistemas 2025
 
 Blog de documentación del evento "Semana de Sistemas 2025" realizado en la Universidad de El Salvador, Facultad Multidisciplinaria Oriental.
@@ -14,36 +18,6 @@ Este proyecto documenta las actividades, ponencias, talleres y eventos recreativ
 - **Arquitectura MVC** - Patrón de diseño Model-View-Controller
 - **PDO** - Para conexión segura a la base de datos
 - **Sistema de Routing** - Enrutamiento personalizado
-
-## Estructura del Proyecto
-
-```
-Proyecto_Blog_TPI/
-│
-├── app/
-│   ├── controllers/      # Controladores (HomeController, DiaController, etc.)
-│   ├── models/           # Modelos (Visita.php)
-│   └── views/            # Vistas HTML/PHP
-│
-├── lib/
-│   ├── Route.php         # Sistema de enrutamiento
-│   └── Database.php      # Conexión PDO a base de datos
-│
-├── public/
-│   ├── css/              # Estilos CSS
-│   ├── js/               # JavaScript (si es necesario)
-│   ├── images/           # Imágenes organizadas por días
-│   ├── index.php         # Punto de entrada
-│   └── .htaccess         # Configuración Apache
-│
-├── routes/
-│   └── web.php           # Definición de rutas
-│
-├── autoloader.php        # Carga automática de clases
-├── database.sql          # Script de base de datos
-├── docker-compose.yml    # Configuración de Docker
-├── Dockerfile            # Imagen Docker personalizada
-└── README.md             # Este archivo
 
 ```
 

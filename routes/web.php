@@ -38,12 +38,8 @@ Route::get("/mi-info", [InfoController::class, "index"]);
 Route::get("/visitas", [VisitaController::class, "formulario"]);
 Route::post("/visitas/registrar", [VisitaController::class, "registrar"]);
 
-// API - Listar visitas (opcional, para estadísticas)
 Route::get("/api/visitas", [VisitaController::class, "listar"]);
 
 
-// ============================================
-// PROCESAR PETICIÓN
-// ============================================
 Route::dispatch();
 ?>

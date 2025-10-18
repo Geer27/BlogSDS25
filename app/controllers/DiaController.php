@@ -55,42 +55,63 @@ class DiaController {
     }
 
     /**
-     * Muestra el día 3
+     * Muestra el día 3 (Miércoles 15 de octubre)
      */
     public function dia3() {
         $data = [
             'titulo' => 'Día 3 - Miércoles 15 de Octubre',
             'fecha' => 'Miércoles, 15 de octubre de 2025',
-            'mensaje' => 'Contenido en construcción. Se actualizará durante el evento.'
+            'actividad' => [
+                'nombre' => 'Torneo de Fútbol',
+                'estado' => 'Cancelado por lluvias'
+            ]
         ];
 
-        return $this->view('dia_construccion', $data);
+        return $this->view('dia3', $data);
     }
 
     /**
-     * Muestra el día 4
+     * Muestra el día 4 (Jueves 16 de octubre)
      */
     public function dia4() {
         $data = [
             'titulo' => 'Día 4 - Jueves 16 de Octubre',
             'fecha' => 'Jueves, 16 de octubre de 2025',
-            'mensaje' => 'Contenido en construcción. Se actualizará durante el evento.'
+            'actividades' => [
+                [
+                    'nombre' => 'Feria de Logros',
+                    'descripcion' => 'Exposición de proyectos destacados de Ingeniería de Sistemas Informáticos'
+                ],
+                [
+                    'nombre' => 'Competencia de Pupuseada',
+                    'descripcion' => 'Actividad recreativa y de integración estudiantil'
+                ]
+            ]
         ];
 
-        return $this->view('dia_construccion', $data);
+        return $this->view('dia4', $data);
     }
 
     /**
-     * Muestra el día 5
+     * Muestra el día 5 (Viernes 17 de octubre)
      */
     public function dia5() {
         $data = [
             'titulo' => 'Día 5 - Viernes 17 de Octubre',
             'fecha' => 'Viernes, 17 de octubre de 2025',
-            'mensaje' => 'Contenido en construcción. Se actualizará durante el evento.'
+            'actividades' => [
+                [
+                    'nombre' => 'Gran Juego de Bingo Interactivo',
+                    'descripcion' => 'Actividad recreativa masiva usando plataforma digital desarrollada por estudiantes'
+                ],
+                [
+                    'nombre' => 'Ceremonia de Entrega de Diplomas',
+                    'descripcion' => 'Clausura oficial del evento con reconocimiento a participantes'
+                ]
+            ]
         ];
 
-        return $this->view('dia_construccion', $data);
+        return $this->view('dia5', $data);
     }
 
     /**

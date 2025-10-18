@@ -36,30 +36,40 @@
 <section class="days-grid">
     <h3>Días del Evento</h3>
     <div class="grid">
-        <a href="/dia/1" class="day-card">
+        <a href="/dia/1" class="day-card day-card-1">
+            <div class="day-number">1</div>
             <h4>Día 1</h4>
-            <p>Lunes 13 Oct</p>
+            <p class="day-date">Lunes 13 Oct</p>
+            <p class="day-activities">Inauguración y Conferencias</p>
             <span class="badge">Disponible</span>
         </a>
-        <a href="/dia/2" class="day-card">
+        <a href="/dia/2" class="day-card day-card-2">
+            <div class="day-number">2</div>
             <h4>Día 2</h4>
-            <p>Martes 14 Oct</p>
-            <span class="badge badge-pending">Próximamente</span>
+            <p class="day-date">Martes 14 Oct</p>
+            <p class="day-activities">Talleres y Workshops</p>
+            <span class="badge">Disponible</span>
         </a>
-        <a href="/dia/3" class="day-card">
+        <a href="/dia/3" class="day-card day-card-3">
+            <div class="day-number">3</div>
             <h4>Día 3</h4>
-            <p>Miércoles 15 Oct</p>
-            <span class="badge badge-pending">Próximamente</span>
+            <p class="day-date">Miércoles 15 Oct</p>
+            <p class="day-activities">Evento Suspendido por Lluvia</p>
+            <span class="badge">Disponible</span>
         </a>
-        <a href="/dia/4" class="day-card">
+        <a href="/dia/4" class="day-card day-card-4">
+            <div class="day-number">4</div>
             <h4>Día 4</h4>
-            <p>Jueves 16 Oct</p>
-            <span class="badge badge-pending">Próximamente</span>
+            <p class="day-date">Jueves 16 Oct</p>
+            <p class="day-activities">Feria de Logros y Pupuseada</p>
+            <span class="badge">Disponible</span>
         </a>
-        <a href="/dia/5" class="day-card">
+        <a href="/dia/5" class="day-card day-card-5">
+            <div class="day-number">5</div>
             <h4>Día 5</h4>
-            <p>Viernes 17 Oct</p>
-            <span class="badge badge-pending">Próximamente</span>
+            <p class="day-date">Viernes 17 Oct</p>
+            <p class="day-activities">Bingo y Entrega de Diplomas</p>
+            <span class="badge">Disponible</span>
         </a>
     </div>
 </section>
